@@ -59,7 +59,7 @@ class search extends Component {
         });
         let searchDate = Object.keys(this.state.earthObjs);
         searchDate.map((key) => {
-          this.state.earthObjs[key].map((obj) =>
+          return this.state.earthObjs[key].map((obj) =>
             this.state.searchObjs.push(obj)
           );
         });

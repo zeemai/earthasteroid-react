@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import withStyles from "@material-ui/core/styles/withStyles";
-import dayjs from "dayjs";
 import { Link } from "react-router-dom";
 
 //MUI
@@ -19,7 +18,6 @@ import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import Tooltip from "@material-ui/core/Tooltip";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import BookmarkIcon from "@material-ui/icons/Bookmark";
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
 
 //apikey for NeoWs
